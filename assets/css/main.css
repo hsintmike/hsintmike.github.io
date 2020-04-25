@@ -2284,6 +2284,7 @@ input, select, textarea {
 			font-weight: 400;
 		}
 
+
 		.icon > .label {
 			display: none;
 		}
@@ -2345,9 +2346,23 @@ input, select, textarea {
 				font-weight: 400;
 			}
 
+
 			.icon.major:before {
 				font-size: 4em;
 				line-height: 1em;
+			}
+
+			.icon.brand:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+				text-transform: none !important;
+				font-family: 'Font Awesome 5 Brands';
+				font-weight: 400;
 			}
 
 /* Image */
@@ -2826,7 +2841,7 @@ input, select, textarea {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay1.png"), url("../../images/unsplash.jpg");
 			background-size: auto,							cover;
 		}
 
@@ -2914,12 +2929,12 @@ input, select, textarea {
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
+		/*background-color: #4686a0;*/
+		/*color: rgba(255, 255, 255, 0.75);*/
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		background-image: url("images/overlay2.png"), url("images/overlay.png"), url("../../images/unsplash_header.jpg");
+		background-position: top left,						top left,					center center;
+		background-size: auto,							auto,							cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -3113,7 +3128,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), url("../../images/unsplash_header.jpg");
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
